@@ -34,7 +34,7 @@ public class BookManage {
         statement = connection.createStatement();
         String sql = "delete from book where id = " + id;
         statement.executeUpdate(sql);
-        System.out.println("Book deleted!!!");
+        System.out.println("Book deleted!!!!");
     }
 
 
